@@ -1,3 +1,14 @@
+#  ⚠ ⚠ Note ⚠ ⚠
+
+### Please checkout the [https://github.com/contentful-labs/hh25-ctfl-intelligent-404/pull/1](pull request) for the Contentful Intelligent 404 page app. This app was based off the blog starter kit, and viewing the pull request is the easiest way to see the code changes to support that work, rather than the extra code needed for the blog.
+
+---
+
+<br />
+<br />
+<br />
+<br />
+
 # Contentful Blog Starter Template
 
 A Blog Starter Template powered by Next.js & Contentful, pre-designed with optimized & adjustable pages, components, and data management.
