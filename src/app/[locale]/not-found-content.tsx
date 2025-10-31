@@ -53,17 +53,14 @@ export default async function NotFoundContent({
   return (
     <Container className="mx-auto my-8 w-full max-w-4xl md:my-10 lg:my-16">
       <title>{t('notFound.title')}</title>
-      <h1 className="h2">{t('notFound.title')}</h1>
-      <p className="mt-4">
-        <Trans i18nKey="notFound.description" t={t}>
-          <Link className="text-blue500" href="/" />
-        </Trans>
-      </p>
 
       {relatedArticles && relatedArticles.length > 0 && (
         <div className="mt-10">
           <h2 className="mb-4 md:mb-6">
-            {t('notFound.mayBeInterested', 'You may be interested in the following articles')}
+            {t(
+              'notFound.mayBeInterested',
+              "We couldn't find that page. However, you may be interested in the following articles:",
+            )}
           </h2>
           <ArticleTileGrid className="md:grid-cols-2" articles={relatedArticles} />
         </div>

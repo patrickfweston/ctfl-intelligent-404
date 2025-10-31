@@ -67,7 +67,7 @@ export async function GET(req: NextRequest) {
           id_in: entryIds,
         },
       },
-      limit: limit ?? 4,
+      limit: limit ?? 2,
     });
 
     const posts =
